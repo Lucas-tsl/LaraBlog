@@ -42,10 +42,10 @@ public function remove(Article $article)
         abort(403);
     }
 
-    // On retourne la vue avec l'article
-    return view('articles.remove', [
-        'article' => $article
-    ]);
+    //$article = Article::find($id);
+    $article->remove();
+    // On redirige l'utilisateur vers la liste des articles avec un message flash
+    return redirect()->route('dashboard')->with('success', 'Article supprimé avec succès.');
 }
 
 

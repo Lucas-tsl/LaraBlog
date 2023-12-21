@@ -26,8 +26,11 @@
                         <label for="draft">Article en brouillon</label>
                     </div>
                     <div>
-                        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        <button type="submit" class="bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                             Modifier l'article
+                        </button>
+                        <button type="submit" class="bg-red-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Supprimer l'article
                         </button>
                     </div>
                 </div>
