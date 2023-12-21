@@ -38,3 +38,4 @@ Route::post('/articles/store', [UserController::class, 'store'])->name('articles
 
 Route::get('/articles/{article}/edit', [UserController::class, 'edit'])->name('articles.edit');
 Route::post('/articles/{article}/update', [UserController::class, 'update'])->name('articles.update');
+
